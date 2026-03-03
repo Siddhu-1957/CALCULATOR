@@ -36,6 +36,9 @@ border-radius: 30px;
     max-width: 500px;
     max-height:700px;
 border-radius: 50px;
+transform: translateY(100vh);
+    opacity: 0;
+    animation: popup 0.8s ease-out forwards;
 }
 .operator{
     background-color: orange;
@@ -51,3 +54,13 @@ button:active{
     background-color: rgb(79, 79, 103);
 }
 
+@keyframes popup{
+    from{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
