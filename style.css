@@ -22,6 +22,8 @@ button{
     
 }
 #display{
+    font-size: x-large;
+    color: white;
    width: 400px;
    height: 60px;
     background-color: rgb(60, 60, 60);
@@ -39,6 +41,7 @@ border-radius: 50px;
     background-color: orange;
 }
 button{
+
     font-size: larger;
 }
 button:hover{
